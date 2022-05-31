@@ -64,8 +64,9 @@ jobs:
 
     - name: copy to S3
       run: aws s3 sync . s3://my-example-s3bucket --exclude '.git*/*'
-(:wq)---------------------------------
-
+```
+---------------------------------
+```
 touch index.html
 vi index.html
 ```
@@ -80,8 +81,8 @@ vi index.html
 
 </body>
 </html>
---------------------------------
 ```
+--------------------------------
 ```
 git add index.html
 git add .github/
