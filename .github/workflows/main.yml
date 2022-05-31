@@ -3,13 +3,13 @@ name: Upload Website
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@master
     - name: Set AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
