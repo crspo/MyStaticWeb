@@ -93,4 +93,5 @@ git remote add origin https://github.com/crspo/MyStaticWeb.git
 git push -u origin master
 ```
 **NOTE: please change the bucket name and update 'master' to 'main' or relevant branch in main.yml as per your repo**
-[Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803185/Q.and.A.docx)
+----
+**Questions and answer file:** [Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803185/Q.and.A.docx)
