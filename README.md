@@ -1,3 +1,4 @@
+[Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803185/Q.and.A.docx)
 # MyStaticWeb
 **Creating S3 bucket on aws for static website:**
 1. Create S3 bucket "my-example-s3bucket" on aws with "Block all public access" unchecked (using AWS S3 console)
