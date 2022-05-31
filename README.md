@@ -66,7 +66,7 @@ jobs:
     - name: copy to S3
       run: aws s3 sync . s3://my-example-s3bucket --exclude '.git*/*'
 ```
----------------------------------
+----
 ```
 touch index.html
 vi index.html
@@ -83,7 +83,7 @@ vi index.html
 </body>
 </html>
 ```
---------------------------------
+----
 ```
 git add index.html
 git add .github/
@@ -94,4 +94,5 @@ git push -u origin master
 ```
 **NOTE: please change the bucket name and update 'master' to 'main' or relevant branch in main.yml as per your repo**
 ----
-**Questions and answer file:** [Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803185/Q.and.A.docx)
+**Questions and answer file:** [Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803458/Q.and.A.docx)
+
