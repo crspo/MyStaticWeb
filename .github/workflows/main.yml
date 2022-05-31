@@ -1,4 +1,4 @@
-name: Upload Website
+name: Upload Static Website
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Set AWS credentials
+    - name: Set AWS IAM credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-region: 'ap-southeast-2'
