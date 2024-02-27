@@ -32,9 +32,9 @@
 
 
 ***Creating Github repository**
-1. Create public repository "MyStaticWeb" with README file
+1. Create public repository "MyStaticWeb" 
 2. Inside repo "MyStaticWeb", go to Settings >Sectets>Actions  and select "New repository secret" to add 2 secrets: "Access key ID" and "Secret access key" which were downloaded from AWS in previous step
-3. Now clone this repository using gitbash on desktop and follow the steps below:
+3. Now clone this repository using gitbash and follow the steps below:
 ```
 git init
 mkdir .github
@@ -92,7 +92,7 @@ git branch -M master
 git remote add origin https://github.com/crspo/MyStaticWeb.git
 git push -u origin master
 ```
-**NOTE: please change the bucket name and update 'master' to 'main' or relevant branch in main.yml as per your repo**
+
 ----
 **Questions and answer file:** [Q and A.docx](https://github.com/crspo/MyStaticWeb/files/8803458/Q.and.A.docx)
 
